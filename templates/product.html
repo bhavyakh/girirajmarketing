@@ -230,6 +230,47 @@
 
 
     <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header__top__inner">
+                            <div class="header__top__left">
+                                <ul>
+                                    <li>USD <span class="arrow_carrot-down"></span>
+                                        <ul>
+                                            <li>EUR</li>
+                                            <li>USD</li>
+                                        </ul>
+                                    </li>
+                                    <li>ENG <span class="arrow_carrot-down"></span>
+                                        <ul>
+                                            <li>Spanish</li>
+                                            <li>ENG</li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Sign in</a> <span class="arrow_carrot-down"></span></li>
+                                </ul>
+                            </div>
+                            <div class="header__logo">
+                                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            </div>
+                            <div class="header__top__right">
+                                <div class="header__top__right__links">
+                                    <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
+                                    <a href="#"><img src="img/icon/heart.png" alt=""></a>
+                                </div>
+                                <div class="header__top__right__cart">
+                                    <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
+                                    <div class="cart__price">Cart: <span>$0.00</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas__open"><i class="fa fa-bars"></i></div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -246,118 +287,18 @@
         </div>
     </header>
 
-
-    <section class="hero">
-        <div class="hero__slider owl-carousel">
-            <div class="hero__item set-bg" data-setbg="{% static 'img/main.jpg' %}">
-                <div class="container">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="hero__text">
-                                <h2>Making your life sweeter one bite at a time!</h2>
-                                <a href="#" class="primary-btn">Our Product</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hero__item set-bg" data-setbg="{% static 'img/hero/hero-1.jpg' %}">
-                <div class="container">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="hero__text">
-                                <h2>Making your life sweeter one bite at a time!</h2>
-                                <a href="#" class="primary-btn">Our Product</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="about spad">
+    <div class="breadcrumb-option">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="about__text">
-                        <div class="section-title">
-                            <span>About Giriraj Marketing</span>
-                            <h2>Wholesaler of disposable crockery</h2>
-                        </div>
-                        <p>The "Cake Shop" is a Jordanian Brand that started as a small family business. The owners are Dr. Iyad Sultan and Dr. Sereen Sharabati, supported by a staff of 80 employees.</p>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="breadcrumb__text">
+                        <h2>Shop</h2>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="about__bar">
-                        <div class="about__bar__item">
-                            <p>Cake design</p>
-                            <div id="bar1" class="barfiller">
-                                <div class="tipWrap"><span class="tip"></span></div>
-                                <span class="fill" data-percentage="95"></span>
-                            </div>
-                        </div>
-                        <div class="about__bar__item">
-                            <p>Cake Class</p>
-                            <div id="bar2" class="barfiller">
-                                <div class="tipWrap"><span class="tip"></span></div>
-                                <span class="fill" data-percentage="80"></span>
-                            </div>
-                        </div>
-                        <div class="about__bar__item">
-                            <p>Cake Recipes</p>
-                            <div id="bar3" class="barfiller">
-                                <div class="tipWrap"><span class="tip"></span></div>
-                                <span class="fill" data-percentage="90"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <div class="categories">
-        <div class="container">
-            <div class="row">
-                <div class="categories__slider owl-carousel">
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-029-cupcake-3"></span>
-                            <h5>Cupcake</h5>
-                        </div>
-                    </div>
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-034-chocolate-roll"></span>
-                            <h5>Butter</h5>
-                        </div>
-                    </div>
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-005-pancake"></span>
-                            <h5>Red Velvet</h5>
-                        </div>
-                    </div>
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-030-cupcake-2"></span>
-                            <h5>Biscuit</h5>
-                        </div>
-                    </div>
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-006-macarons"></span>
-                            <h5>Donut</h5>
-                        </div>
-                    </div>
-                    <div class="categories__item">
-                        <div class="categories__item__icon">
-                            <span class="flaticon-006-macarons"></span>
-                            <h5>Cupcake</h5>
-                        </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="breadcrumb__links">
+                        <a href="https://preview.colorlib.com/theme/cake/index.html">Home</a>
+                        <span>Shop</span>
                     </div>
                 </div>
             </div>
@@ -365,339 +306,263 @@
     </div>
 
 
-    <section class="product spad">
+    <section class="shop spad">
         <div class="container">
+            <div class="shop__option">
+                <div class="row">
+                    <div class="col-lg-7 col-md-7">
+                        <div class="shop__option__search">
+                            <form action="https://preview.colorlib.com/theme/cake/shop.html#">
+
+                                <div class="nice-select" tabindex="0"><span class="current">Plates</span>
+                                    <ul class="list">
+                                        <li data-value="" class="option">Plates</li>
+                                        <li data-value="" class="option selected">Spoon</li>
+                                        <li data-value="" class="option">Glasses</li>
+                                        <li data-value="" class="option focus">Container</li>
+                                    </ul>
+                                </div>
+
+                                <input type="text" placeholder="Search">
+                                <button type="submit"><i class="fa-search fa"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5">
+                        <div class="shop__option__right">
+                            <select style="display: none;">
+<option value="">Default sorting</option>
+<option value="">A to Z</option>
+<option value="">1 - 8</option>
+<option value="">Name</option>
+</select>
+                            <div class="nice-select" tabindex="0"><span class="current">Default sorting</span>
+                                <ul class="list">
+                                    <li data-value="" class="option selected">Default sorting</li>
+                                    <li data-value="" class="option">A to Z</li>
+                                    <li data-value="" class="option">1 - 8</li>
+                                    <li data-value="" class="option">Name</li>
+                                </ul>
+                            </div>
+                            <a href="https://preview.colorlib.com/theme/cake/shop.html#"><i class="fa fa-list"></i></a>
+                            <a href="https://preview.colorlib.com/theme/cake/shop.html#"><i class="fa fa-reorder"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-1.jpg' %}">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-1.jpg" style="background-image: url(&quot;img/shop/product-1.jpg&quot;);">
                             <div class="product__label">
                                 <span>Cupcake</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Dozen Cupcakes</a></h6>
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">Dozen Cupcakes</a></h6>
                             <div class="product__item__price">$32.00</div>
                             <div class="cart_add">
-                                <a href="#">Add to cart</a>
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-2.jpg' %}">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-2.jpg" style="background-image: url(&quot;img/shop/product-2.jpg&quot;);">
                             <div class="product__label">
                                 <span>Cupcake</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Cookies and Cream</a></h6>
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">Cookies and Cream</a></h6>
                             <div class="product__item__price">$30.00</div>
                             <div class="cart_add">
-                                <a href="#">Add to cart</a>
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-3.jpg' %}">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-3.jpg" style="background-image: url(&quot;img/shop/product-3.jpg&quot;);">
                             <div class="product__label">
                                 <span>Cupcake</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Gluten Free Mini Dozen</a></h6>
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">Gluten Free Mini Dozen</a></h6>
                             <div class="product__item__price">$31.00</div>
                             <div class="cart_add">
-                                <a href="#">Add to cart</a>
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-4.jpg' %}">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-4.jpg" style="background-image: url(&quot;img/shop/product-4.jpg&quot;);">
                             <div class="product__label">
                                 <span>Cupcake</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Cookie Dough</a></h6>
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">Cookie Dough</a></h6>
                             <div class="product__item__price">$25.00</div>
                             <div class="cart_add">
-                                <a href="#">Add to cart</a>
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-5.jpg' %}">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-5.jpg" style="background-image: url(&quot;img/shop/product-5.jpg&quot;);">
                             <div class="product__label">
                                 <span>Cupcake</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Vanilla Salted Caramel</a></h6>
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">Vanilla Salted Caramel</a></h6>
                             <div class="product__item__price">$05.00</div>
                             <div class="cart_add">
-                                <a href="#">Add to cart</a>
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-6.jpg'%}">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-6.jpg" style="background-image: url(&quot;img/shop/product-6.jpg&quot;);">
                             <div class="product__label">
                                 <span>Cupcake</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">German Chocolate</a></h6>
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">German Chocolate</a></h6>
                             <div class="product__item__price">$14.00</div>
                             <div class="cart_add">
-                                <a href="#">Add to cart</a>
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-7.jpg' %}">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-7.jpg" style="background-image: url(&quot;img/shop/product-7.jpg&quot;);">
                             <div class="product__label">
                                 <span>Cupcake</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Dulce De Leche</a></h6>
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">Dulce De Leche</a></h6>
                             <div class="product__item__price">$32.00</div>
                             <div class="cart_add">
-                                <a href="#">Add to cart</a>
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-1.jpg' %}">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-8.jpg" style="background-image: url(&quot;img/shop/product-8.jpg&quot;);">
                             <div class="product__label">
                                 <span>Cupcake</span>
                             </div>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Mississippi Mud</a></h6>
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">Mississippi Mud</a></h6>
                             <div class="product__item__price">$08.00</div>
                             <div class="cart_add">
-                                <a href="#">Add to cart</a>
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-9.jpg" style="background-image: url(&quot;img/shop/product-9.jpg&quot;);">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">VEGAN/GLUTEN FREE</a></h6>
+                            <div class="product__item__price">$98.85</div>
+                            <div class="cart_add">
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-10.jpg" style="background-image: url(&quot;img/shop/product-10.jpg&quot;);">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">SWEET CELTICS</a></h6>
+                            <div class="product__item__price">$5.77</div>
+                            <div class="cart_add">
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-11.jpg" style="background-image: url(&quot;img/shop/product-11.jpg&quot;);">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">SWEET AUTUMN LEAVES</a></h6>
+                            <div class="product__item__price">$26.41</div>
+                            <div class="cart_add">
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="img/shop/product-12.jpg" style="background-image: url(&quot;img/shop/product-12.jpg&quot;);">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="https://preview.colorlib.com/theme/cake/shop.html#">PALE YELLOW SWEET</a></h6>
+                            <div class="product__item__price">$22.47</div>
+                            <div class="cart_add">
+                                <a href="https://preview.colorlib.com/theme/cake/shop.html#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shop__last__option">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="shop__pagination">
+                            <a href="https://preview.colorlib.com/theme/cake/shop.html#">1</a>
+                            <a href="https://preview.colorlib.com/theme/cake/shop.html#">2</a>
+                            <a href="https://preview.colorlib.com/theme/cake/shop.html#">3</a>
+                            <a href="https://preview.colorlib.com/theme/cake/shop.html#"><span class="arrow_carrot-right"></span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="shop__last__text">
+                            <p>Showing 1-9 of 10 results</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <section class="class spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="class__form">
-                        <div class="section-title">
-                            <span>Class cakes</span>
-                            <h2>Made from your <br />own hands</h2>
-                        </div>
-                        <form action="#">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Phone">
-                            <select>
-<option value="">Studying Class</option>
-<option value="">Writting Class</option>
-<option value="">Reading Class</option>
-</select>
-                            <input type="text" placeholder="Type your requirements">
-                            <button type="submit" class="site-btn">registration</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="class__video set-bg" data-setbg="img/class-video.jpg">
-                <a href="https://www.youtube.com/watch?v=8PJ3_p7VqHw&list=RD8PJ3_p7VqHw&start_radio=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section class="testimonial spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-title">
-                        <span>Testimonial</span>
-                        <h2>Our client say</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="testimonial__slider owl-carousel">
-                    <div class="col-lg-6">
-                        <div class="testimonial__item">
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="{% static 'img/testimonial/xta-1.jpg.pagespeed.ic.nb7crSolZI.jpg' %}" alt="" data-pagespeed-url-hash="3283024380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Kerry D.Silva</h5>
-                                    <span>New york</span>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="testimonial__item">
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="{% static 'img/testimonial/xta-2.jpg.pagespeed.ic.IajDgdyurN.jpg' %}" alt="" data-pagespeed-url-hash="3577524301" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Kerry D.Silva</h5>
-                                    <span>New york</span>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="testimonial__item">
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="{% static 'img/testimonial/xta-1.jpg.pagespeed.ic.nb7crSolZI.jpg' %}" alt="" data-pagespeed-url-hash="3283024380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Ophelia Nunez</h5>
-                                    <span>London</span>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="testimonial__item">
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="{% static 'img/testimonial/xta-1.jpg.pagespeed.ic.nb7crSolZI.jpg' %}" alt="" data-pagespeed-url-hash="3577524301" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Kerry D.Silva</h5>
-                                    <span>New york</span>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="testimonial__item">
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="{% static 'img/testimonial/xta-1.jpg.pagespeed.ic.nb7crSolZI.jpg' %}" alt="" data-pagespeed-url-hash="3283024380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Ophelia Nunez</h5>
-                                    <span>London</span>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="testimonial__item">
-                            <div class="testimonial__author">
-                                <div class="testimonial__author__pic">
-                                    <img src="{% static 'img/testimonial/xta-1.jpg.pagespeed.ic.nb7crSolZI.jpg' %}" alt="" data-pagespeed-url-hash="3577524301" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                                </div>
-                                <div class="testimonial__author__text">
-                                    <h5>Kerry D.Silva</h5>
-                                    <span>New york</span>
-                                </div>
-                            </div>
-                            <div class="rating">
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star"></span>
-                                <span class="icon_star-half_alt"></span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <div class="map">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-7">
-                    <div class="map__inner">
-                        <h6>Madangir</h6>
-                        <ul>
-                            <li>E-1/245,246 Central Market Madangir, New Delhi-110062</li>
-                            <li><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="184b6f7d7d6c7b79737d586b6d6868776a6c367b7775">[email&#160;protected]</a></li>
-                            <li>+91 98102 77615</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="map__iframe">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d902.0979550829786!2d77.23339164861136!3d28.519639016558536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x284a9aafdc45e2b9!2sGiriraj%20Marketing!5e0!3m2!1sen!2sin!4v1625670357380!5m2!1sen!2sin"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-    </div>
-
 
     <footer class="footer set-bg" data-setbg="{% static 'img/footer-bg.jpg' %}">
         <div class="container">
