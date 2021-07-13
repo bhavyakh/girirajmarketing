@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Cake Template">
+    <meta name="keywords" content="Cake, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giriraj Marketing</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> {% load static %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bs.css' %}">
+
+</head>
+
+<body>
+
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__cart">
+            <div class="offcanvas__cart__links">
+                <a href="#" class="search-switch">
+                    <script data-pagespeed-no-defer>
+                        //<![CDATA[
+                        (function() {
+                            for (var g = "function" == typeof Object.defineProperties ? Object.defineProperty : function(b, c, a) {
+                                    if (a.get || a.set) throw new TypeError("ES3 does not support getters and setters.");
+                                    b != Array.prototype && b != Object.prototype && (b[c] = a.value)
+                                }, h = "undefined" != typeof window && window === this ? this : "undefined" != typeof global && null != global ? global : this, k = ["String", "prototype", "repeat"], l = 0; l < k.length - 1; l++) {
+                                var m = k[l];
+                                m in h || (h[m] = {});
+                                h = h[m]
+                            }
+                            var n = k[k.length - 1],
+                                p = h[n],
+                                q = p ? p : function(b) {
+                                    var c;
+                                    if (null == this) throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");
+                                    c = this + "";
+                                    if (0 > b || 1342177279 < b) throw new RangeError("Invalid count value");
+                                    b |= 0;
+                                    for (var a = ""; b;)
+                                        if (b & 1 && (a += c), b >>>= 1) c += c;
+                                    return a
+                                };
+                            q != p && null != q && g(h, n, {
+                                configurable: !0,
+                                writable: !0,
+                                value: q
+                            });
+                            var t = this;
+
+                            function u(b, c) {
+                                var a = b.split("."),
+                                    d = t;
+                                a[0] in d || !d.execScript || d.execScript("var " + a[0]);
+                                for (var e; a.length && (e = a.shift());) a.length || void 0 === c ? d[e] ? d = d[e] : d = d[e] = {} : d[e] = c
+                            };
+
+                            function v(b) {
+                                var c = b.length;
+                                if (0 < c) {
+                                    for (var a = Array(c), d = 0; d < c; d++) a[d] = b[d];
+                                    return a
+                                }
+                                return []
+                            };
+
+                            function w(b) {
+                                var c = window;
+                                if (c.addEventListener) c.addEventListener("load", b, !1);
+                                else if (c.attachEvent) c.attachEvent("onload", b);
+                                else {
+                                    var a = c.onload;
+                                    c.onload = function() {
+                                        b.call(this);
+                                        a && a.call(this)
+                                    }
+                                }
+                            };
+                            var x;
+
+                            function y(b, c, a, d, e) {
+                                this.h = b;
+                                this.j = c;
+                                this.l = a;
+                                this.f = e;
+                                this.g = {
+                                    height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
+                                    width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                                };
+                                this.i = d;
+                                this.b = {};
+                                this.a = [];
+                                this.c = {}
+                            }
+
+                            function z(b, c) {
+                                var a, d, e = c.getAttribute("data-pagespeed-url-hash");
+                                if (a = e && !(e in b.c))
+                                    if (0 >= c.offsetWidth && 0 >= c.offsetHeight) a = !1;
+                                    else {
+                                        d = c.getBoundingClientRect();
+                                        var f = document.body;
+                                        a = d.top + ("pageYOffset" in window ? window.pageYOffset : (document.documentElement || f.parentNode || f).scrollTop);
+                                        d = d.left + ("pageXOffset" in window ? window.pageXOffset : (document.documentElement || f.parentNode || f).scrollLeft);
+                                        f = a.toString() + "," + d;
+                                        b.b.hasOwnProperty(f) ? a = !1 : (b.b[f] = !0, a = a <= b.g.height && d <= b.g.width)
+                                    }
+                                a && (b.a.push(e),
+                                    b.c[e] = !0)
+                            }
+                            y.prototype.checkImageForCriticality = function(b) {
+                                b.getBoundingClientRect && z(this, b)
+                            };
+                            u("pagespeed.CriticalImages.checkImageForCriticality", function(b) {
+                                x.checkImageForCriticality(b)
+                            });
+                            u("pagespeed.CriticalImages.checkCriticalImages", function() {
+                                A(x)
+                            });
+
+                            function A(b) {
+                                b.b = {};
+                                for (var c = ["IMG", "INPUT"], a = [], d = 0; d < c.length; ++d) a = a.concat(v(document.getElementsByTagName(c[d])));
+                                if (a.length && a[0].getBoundingClientRect) {
+                                    for (d = 0; c = a[d]; ++d) z(b, c);
+                                    a = "oh=" + b.l;
+                                    b.f && (a += "&n=" + b.f);
+                                    if (c = !!b.a.length)
+                                        for (a += "&ci=" + encodeURIComponent(b.a[0]), d = 1; d < b.a.length; ++d) {
+                                            var e = "," + encodeURIComponent(b.a[d]);
+                                            131072 >= a.length + e.length && (a += e)
+                                        }
+                                    b.i && (e = "&rd=" + encodeURIComponent(JSON.stringify(B())), 131072 >= a.length + e.length && (a += e), c = !0);
+                                    C = a;
+                                    if (c) {
+                                        d = b.h;
+                                        b = b.j;
+                                        var f;
+                                        if (window.XMLHttpRequest) f =
+                                            new XMLHttpRequest;
+                                        else if (window.ActiveXObject) try {
+                                            f = new ActiveXObject("Msxml2.XMLHTTP")
+                                        } catch (r) {
+                                            try {
+                                                f = new ActiveXObject("Microsoft.XMLHTTP")
+                                            } catch (D) {}
+                                        }
+                                        f && (f.open("POST", d + (-1 == d.indexOf("?") ? "?" : "&") + "url=" + encodeURIComponent(b)), f.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), f.send(a))
+                                    }
+                                }
+                            }
+
+                            function B() {
+                                var b = {},
+                                    c;
+                                c = document.getElementsByTagName("IMG");
+                                if (!c.length) return {};
+                                var a = c[0];
+                                if (!("naturalWidth" in a && "naturalHeight" in a)) return {};
+                                for (var d = 0; a = c[d]; ++d) {
+                                    var e = a.getAttribute("data-pagespeed-url-hash");
+                                    e && (!(e in b) && 0 < a.width && 0 < a.height && 0 < a.naturalWidth && 0 < a.naturalHeight || e in b && a.width >= b[e].o && a.height >= b[e].m) && (b[e] = {
+                                        rw: a.width,
+                                        rh: a.height,
+                                        ow: a.naturalWidth,
+                                        oh: a.naturalHeight
+                                    })
+                                }
+                                return b
+                            }
+                            var C = "";
+                            u("pagespeed.CriticalImages.getBeaconData", function() {
+                                return C
+                            });
+                            u("pagespeed.CriticalImages.Run", function(b, c, a, d, e, f) {
+                                var r = new y(b, c, a, e, f);
+                                x = r;
+                                d && w(function() {
+                                    window.setTimeout(function() {
+                                        A(r)
+                                    }, 0)
+                                })
+                            });
+                        })();
+
+                        pagespeed.CriticalImages.Run('/mod_pagespeed_beacon', 'https://preview.colorlib.com/theme/cake/', '-ilGEe-FWC', true, false, 'mwUMTM3M7do');
+                        //]]>
+                    </script><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAMAAAAc9R5vAAAABGdBTUEAALGPC/xhBQAAAVZQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAy6q/AwAAAHF0Uk5TACB4tN7n4ryFLRag/LUjNuaxXyoUJkuZ9FA0880yGaP9Tw8JeSGO1wues/VHE/ApWdGNgYM+ubBaF9QH4KpiHsl8l1OmPQanYQHYbi7+DlTxJwrMpeQNu8YFvntV3zF2YJXh3Bw7tk6yEnWEV6IDcDPFgpd4AAABDElEQVQoz32RV08CARCEP0CwY1ewK9gL9l5RQUQUEewVe3f+/4sPdwHuQpynyXzZ3UkWAHA4XSVuT2lZORZVVFbJVLW3IK+plerqGxqbmlt88vlzeWub2jtM39ml7h7T93rkCuTHg/L1Ga5fA4OFB4c0bAyMaNTSZGxcIYAJTVorMqVpY9OMDcxqDmBeCzawqCUAl5ptYFkrAKtas4F1bQBsKmwDW9oG2JE7YgVR7QLE9hS35PuJ8QMADpU8KshTx3KaNq1MKJefnOrs3PSBC/kuUwDErq6VuMkXD0vJ6O1d/D4rZfTwmF/89JwwHnj2Enm1EN787x/BTwdgJ3n9S7LeouQ8ra+igO+f3z82NTvru8LEqwAAAABJRU5ErkJggg=="
+                        alt="" data-pagespeed-url-hash="2396797477" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAXCAMAAAAiCq8iAAAABGdBTUEAALGPC/xhBQAAAVxQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGu3MCAAAAHN0Uk5TABFtrce2DAFPqsiBJGfy4kUgv/6UB4f7mDwVK579dkDtxUEtd+y+CVM4S/F/AhYD4UIq5PpY5SiyHURrhVwYwpw59d2MBtNlfj2oGvzms1mxb9EFCs6V44hJSCXrhPZgTvlp6Zdbo2RUItyvcfcbvYkzm1baB3gAAAEaSURBVCjPbZFVUwIBFIU/FOwGE9cAGxXRxcAOMLDFxk5sPf9/xgdBF9zzdO58cxsAR16+05VXAFBYVFziKi0jrfIKSVJlFVTXSJLcnloA6lTf0NjkbZbR0tqmdp/D39Gprm6gR529APQF5Fb/AMBgiTwQHFIoXXh4xAynbdOoe4wqjWd6MhH5tZOaolTT2GhGs8xp3g6xsMiSInYkasRY1oodWtUa8fUNhw3a1BZ4tB38R3a0uweJfR3kkh4j4AWIH+oomxyb5smPO03qzEpC50bmKviT1rzQuS7+Iiu7vHJfW2v4b3RbCEDYNO6yO5eN6D4IPBjmY+68qSc9R3nR6+X//d9iev9QwGd3NodTSn7avoHE2VfKEn4DHww21KLe1pwAAAAASUVORK5CYII="
+                        alt="" data-pagespeed-url-hash="2466014855" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+            </div>
+            <div class="offcanvas__cart__item">
+                <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAbCAMAAACgNuTpAAAABGdBTUEAALGPC/xhBQAAAMNQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQHCrIAAAAEB0Uk5TABhdeGcrCZP6ux4FvvSUfuLkH3ncIAquugHp/SzeVICO58awa2GlnXxQh7P1oECQ8OAnViHjXFjydbUGf6+WG3EtHnsAAACaSURBVCjP7dHHEoIwFIXhK/YuKtjAqFiIBcXeOe//VDIEZ2g7t/6L5M63SBaX6FtKSmeyFC2XL8CtWApzuYJqTao3IDdD3kJbcS+1g26Qe/2BJp7Tofk0ZIyNMGaiCQz3nKo0Q1JzWsDkfIkVF5netNZpA4uIY+v/ZHnTzha+lw++H0/ngEf7+w9+UWJdbbol7vFOj+fLiPV2PgaxLoSZbcBSAAAAAElFTkSuQmCC"
+                        alt="" data-pagespeed-url-hash="374355437" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"> <span>0</span></a>
+                <div class="cart__price">Cart: <span>$0.00</span></div>
+            </div>
+        </div>
+        <div class="offcanvas__logo">
+            <a href="./index.html"><img src="{% static 'img/xlogo.png.pagespeed.ic.RIXjeP9bTa.png' %}" alt="" data-pagespeed-url-hash="1221832774" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__option">
+            <ul>
+                <li>USD <span class="arrow_carrot-down"></span>
+                    <ul>
+                        <li>EUR</li>
+                        <li>USD</li>
+                    </ul>
+                </li>
+                <li>ENG <span class="arrow_carrot-down"></span>
+                    <ul>
+                        <li>Spanish</li>
+                        <li>ENG</li>
+                    </ul>
+                </li>
+                <li><a href="#">Sign in</a> <span class="arrow_carrot-down"></span></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./products.html">Shop</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="./shop-details.html">Shop Details</a></li>
+                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                                    <li><a href="./checkout.html">Check Out</a></li>
+                                    <li><a href="./wisslist.html">Wisslist</a></li>
+                                    <li><a href="./Class.html">Class</a></li>
+                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero__slider owl-carousel">
+            <div class="hero__item set-bg" data-setbg="{% static 'img/main.jpg' %}">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="hero__text">
+                                <h2>Making your life sweeter one bite at a time!</h2>
+                                <a href="#" class="primary-btn">Our Product</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__item set-bg" data-setbg="{% static 'img/hero/hero-1.jpg' %}">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="hero__text">
+                                <h2>Making your life sweeter one bite at a time!</h2>
+                                <a href="#" class="primary-btn">Our Product</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="about__text">
+                        <div class="section-title">
+                            <span>About Giriraj Marketing</span>
+                            <h2>Wholesaler of disposable crockery</h2>
+                        </div>
+                        <p>The "Cake Shop" is a Jordanian Brand that started as a small family business. The owners are Dr. Iyad Sultan and Dr. Sereen Sharabati, supported by a staff of 80 employees.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="about__bar">
+                        <div class="about__bar__item">
+                            <p>Cake design</p>
+                            <div id="bar1" class="barfiller">
+                                <div class="tipWrap"><span class="tip"></span></div>
+                                <span class="fill" data-percentage="95"></span>
+                            </div>
+                        </div>
+                        <div class="about__bar__item">
+                            <p>Cake Class</p>
+                            <div id="bar2" class="barfiller">
+                                <div class="tipWrap"><span class="tip"></span></div>
+                                <span class="fill" data-percentage="80"></span>
+                            </div>
+                        </div>
+                        <div class="about__bar__item">
+                            <p>Cake Recipes</p>
+                            <div id="bar3" class="barfiller">
+                                <div class="tipWrap"><span class="tip"></span></div>
+                                <span class="fill" data-percentage="90"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="categories">
+        <div class="container">
+            <div class="row">
+                <div class="categories__slider owl-carousel">
+                    <div class="categories__item">
+                        <div class="categories__item__icon">
+                            <span class="flaticon-029-cupcake-3"></span>
+                            <h5>Cupcake</h5>
+                        </div>
+                    </div>
+                    <div class="categories__item">
+                        <div class="categories__item__icon">
+                            <span class="flaticon-034-chocolate-roll"></span>
+                            <h5>Butter</h5>
+                        </div>
+                    </div>
+                    <div class="categories__item">
+                        <div class="categories__item__icon">
+                            <span class="flaticon-005-pancake"></span>
+                            <h5>Red Velvet</h5>
+                        </div>
+                    </div>
+                    <div class="categories__item">
+                        <div class="categories__item__icon">
+                            <span class="flaticon-030-cupcake-2"></span>
+                            <h5>Biscuit</h5>
+                        </div>
+                    </div>
+                    <div class="categories__item">
+                        <div class="categories__item__icon">
+                            <span class="flaticon-006-macarons"></span>
+                            <h5>Donut</h5>
+                        </div>
+                    </div>
+                    <div class="categories__item">
+                        <div class="categories__item__icon">
+                            <span class="flaticon-006-macarons"></span>
+                            <h5>Cupcake</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-1.jpg' %}">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Dozen Cupcakes</a></h6>
+                            <div class="product__item__price">$32.00</div>
+                            <div class="cart_add">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-2.jpg' %}">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Cookies and Cream</a></h6>
+                            <div class="product__item__price">$30.00</div>
+                            <div class="cart_add">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-3.jpg' %}">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Gluten Free Mini Dozen</a></h6>
+                            <div class="product__item__price">$31.00</div>
+                            <div class="cart_add">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-4.jpg' %}">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Cookie Dough</a></h6>
+                            <div class="product__item__price">$25.00</div>
+                            <div class="cart_add">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-5.jpg' %}">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Vanilla Salted Caramel</a></h6>
+                            <div class="product__item__price">$05.00</div>
+                            <div class="cart_add">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-6.jpg'%}">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">German Chocolate</a></h6>
+                            <div class="product__item__price">$14.00</div>
+                            <div class="cart_add">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-7.jpg' %}">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Dulce De Leche</a></h6>
+                            <div class="product__item__price">$32.00</div>
+                            <div class="cart_add">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="product__item">
+                        <div class="product__item__pic set-bg" data-setbg="{% static 'img/shop/product-1.jpg' %}">
+                            <div class="product__label">
+                                <span>Cupcake</span>
+                            </div>
+                        </div>
+                        <div class="product__item__text">
+                            <h6><a href="#">Mississippi Mud</a></h6>
+                            <div class="product__item__price">$08.00</div>
+                            <div class="cart_add">
+                                <a href="#">Add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="class spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="class__form">
+                        <div class="section-title">
+                            <span>Class cakes</span>
+                            <h2>Made from your <br />own hands</h2>
+                        </div>
+                        <form action="#">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Phone">
+                            <select>
+<option value="">Studying Class</option>
+<option value="">Writting Class</option>
+<option value="">Reading Class</option>
+</select>
+                            <input type="text" placeholder="Type your requirements">
+                            <button type="submit" class="site-btn">registration</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="class__video set-bg" data-setbg="img/class-video.jpg">
+                <a href="https://www.youtube.com/watch?v=8PJ3_p7VqHw&list=RD8PJ3_p7VqHw&start_radio=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="testimonial spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <span>Testimonial</span>
+                        <h2>Our client say</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="testimonial__slider owl-carousel">
+                    <div class="col-lg-6">
+                        <div class="testimonial__item">
+                            <div class="testimonial__author">
+                                <div class="testimonial__author__pic">
+                                    <img src="{% static 'img/testimonial/xta-1.jpg.pagespeed.ic.nb7crSolZI.jpg' %}" alt="" data-pagespeed-url-hash="3283024380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <div class="testimonial__author__text">
+                                    <h5>Kerry D.Silva</h5>
+                                    <span>New york</span>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star-half_alt"></span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="testimonial__item">
+                            <div class="testimonial__author">
+                                <div class="testimonial__author__pic">
+                                    <img src="{% static 'img/testimonial/xta-2.jpg.pagespeed.ic.IajDgdyurN.jpg' %}" alt="" data-pagespeed-url-hash="3577524301" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <div class="testimonial__author__text">
+                                    <h5>Kerry D.Silva</h5>
+                                    <span>New york</span>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star-half_alt"></span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="testimonial__item">
+                            <div class="testimonial__author">
+                                <div class="testimonial__author__pic">
+                                    <img src="{% static 'img/testimonial/xta-1.jpg.pagespeed.ic.nb7crSolZI.jpg' %}" alt="" data-pagespeed-url-hash="3283024380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <div class="testimonial__author__text">
+                                    <h5>Ophelia Nunez</h5>
+                                    <span>London</span>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star-half_alt"></span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="testimonial__item">
+                            <div class="testimonial__author">
+                                <div class="testimonial__author__pic">
+                                    <img src="{% static 'img/testimonial/xta-1.jpg.pagespeed.ic.nb7crSolZI.jpg' %}" alt="" data-pagespeed-url-hash="3577524301" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <div class="testimonial__author__text">
+                                    <h5>Kerry D.Silva</h5>
+                                    <span>New york</span>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star-half_alt"></span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="testimonial__item">
+                            <div class="testimonial__author">
+                                <div class="testimonial__author__pic">
+                                    <img src="{% static 'img/testimonial/xta-1.jpg.pagespeed.ic.nb7crSolZI.jpg' %}" alt="" data-pagespeed-url-hash="3283024380" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <div class="testimonial__author__text">
+                                    <h5>Ophelia Nunez</h5>
+                                    <span>London</span>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star-half_alt"></span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="testimonial__item">
+                            <div class="testimonial__author">
+                                <div class="testimonial__author__pic">
+                                    <img src="{% static 'img/testimonial/xta-1.jpg.pagespeed.ic.nb7crSolZI.jpg' %}" alt="" data-pagespeed-url-hash="3577524301" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                </div>
+                                <div class="testimonial__author__text">
+                                    <h5>Kerry D.Silva</h5>
+                                    <span>New york</span>
+                                </div>
+                            </div>
+                            <div class="rating">
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star"></span>
+                                <span class="icon_star-half_alt"></span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua viverra lacus vel facilisis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-7">
+                    <div class="map__inner">
+                        <h6>Madangir</h6>
+                        <ul>
+                            <li>E-1/245,246 Central Market Madangir, New Delhi-110062</li>
+                            <li><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="184b6f7d7d6c7b79737d586b6d6868776a6c367b7775">[email&#160;protected]</a></li>
+                            <li>+91 98102 77615</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map__iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d902.0979550829786!2d77.23339164861136!3d28.519639016558536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x284a9aafdc45e2b9!2sGiriraj%20Marketing!5e0!3m2!1sen!2sin!4v1625670357380!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+
+    <footer class="footer set-bg" data-setbg="{% static 'img/footer-bg.jpg' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>WORKING HOURS</h6>
+                        <ul>
+                            <li>Open 7 days - 09:00 am – 06:30 pm</li>
+                            <li>Last Tuesday Closed</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="#"><img src="{% static 'img/xfooter-logo.png.pagespeed.ic.Yb-UGjvtQe.png' %}" alt="" data-pagespeed-url-hash="249291132" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                        </div>
+                        <p>Wholesaler of disposable crockery.</p>
+                        <div class="footer__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__newslatter">
+                        <h6>Subscribe</h6>
+                        <p>Get latest updates and offers.</p>
+                        <form action="#">
+                            <input type="text" placeholder="Phone">
+                            <button type="submit"><i class="fa fa-send-o"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <p class="copyright__text text-white">
+                            Copyright &copy;
+                            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+
+                        </p>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="copyright__widget">
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Site Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+
+
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js+jquery.nice-select.min.js+jquery.barfiller.js+jquery.magnific-popup.min.js.pagespeed.jc.2i8oRofkTE.js' %}"></script>
+    <script>
+        eval(mod_pagespeed_bn_O6PYOiT);
+    </script>
+    <script>
+        eval(mod_pagespeed_rlBdYap1O3);
+    </script>
+    <script>
+        eval(mod_pagespeed_4nsqOyHz4N);
+    </script>
+    <script>
+        eval(mod_pagespeed_MzGhsBPcyU);
+    </script>
+    <script src="{% static 'js/jquery.slicknav.js+owl.carousel.min.js.pagespeed.jc.ZkW2f5-xTF.js' %}"></script>
+    <script>
+        eval(mod_pagespeed_mUtJ3IVbac);
+    </script>
+    <script>
+        eval(mod_pagespeed_VQycfQPz1E);
+    </script>
+    <script src="{% static 'js/jquery.nicescroll.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"65a22c60a97fe2a1","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.5.2","si":10}'></script>
+</body>
+
+</html>
